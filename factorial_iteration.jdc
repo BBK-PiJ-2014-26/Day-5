@@ -1,0 +1,18 @@
+// Iterative Solution
+{
+void int factorial(int x) {
+	if (x < 0) {
+		println("The factorial method only applies to non-negative numbers.");
+		return;
+	} else if (x == 0)  {
+		return 1;
+	} else {
+		while (x != 0 || x < 0) {
+		println(x * (x-1));
+		x = x - 1;
+	}
+}
+}
+
+int y = System.Console().readInt();
+factorial(y);
